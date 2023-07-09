@@ -3,8 +3,8 @@
 
 - name: Download jenkins.repo
   get_url:
-    url: ""
-    dest: /etc/yum.repos.d/jenkins.repo
+      url: "{{ jenkins_Repo }}"
+      dest: /etc/yum.repos.d/jenkins.repo
 
 - name: Import Jenkins Key
   rpm_key:
