@@ -1,1 +1,1 @@
-# diploying jenkins_setup_ansible on Terraform_Project-1
+# diploy jenkins_setup_ansible on Terraform_Project-1
